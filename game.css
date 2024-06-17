@@ -1,0 +1,175 @@
+body {
+    font-family: verdana;
+    background-color: #352208;
+    color: #E1BB80;
+    
+    }
+    
+    h1 {
+    margin-left: 500px;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    
+    
+    }
+    
+    h2 {
+    display: block;
+    background-color: beige;
+    color: rgb(78, 70, 70);
+    border: solid 5px;
+    border-color: #b08431;
+    margin-left: 10px;
+    width: 60px;
+    height: 50px;
+    padding: 6px;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 3px;
+    margin-top: 20px;
+    border-radius: 0.2rem;
+    }
+    
+    hr {
+    width: 500px;
+    color: #E1BB80;
+    
+    }
+    
+    .best {
+    margin-left: 90px;
+    }
+    
+    .score {
+    width: 70px;
+    }
+    
+    .scoreBox {
+    display: inline-flex;
+    
+    }
+    #aim{
+    font-size: small;
+    margin-left: 500px;
+    color: beige;
+    margin-top: 0.01px;
+    font-weight: bolder;
+    }
+    #instruction{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: beige;
+    font-size: smaller;
+    }
+    
+    
+    
+    #board {
+    width: 400px;
+    height: 400px;
+    background-color: #7B6B43;
+    border: 5px solid #57431f;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #57431f;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    
+    #resetBtn {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #9b7f54;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 3px;
+    font-family: verdana;
+    border: none;
+    border-radius: 0.2rem;
+    }
+    .resetContainer{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    }
+    #resetBtn:hover{
+    background-color: rgb(197, 197, 174) ;
+    }
+    
+    .x2 {
+    background-color: #eee4da;
+    color: rgb(78, 70, 70);
+    }
+    
+    .x4 {
+    background-color: #ece0ca;
+    color: rgb(78, 70, 70);
+    }
+    
+    .x8 {
+    background-color: #eea725;
+    color: white;
+    }
+    
+    .x16 {
+    background-color: #b08431;
+    color: white;
+    }
+    
+    .x32 {
+    background-color: #f57c5f;
+    color: white;
+    }
+    
+    .x64 {
+    background-color: #f65d3b;
+    color: white;
+    }
+    
+    .x128 {
+    background-color: #edce71;
+    color: white;
+    }
+    
+    .x256 {
+    background-color: #edcc63;
+    color: white;
+    }
+    
+    .x512 {
+    background-color: #edc651;
+    color: white;
+    }
+    
+    .x1024 {
+    background-color: #eec744;
+    color: white;
+    }
+    
+    .x2048 {
+    background-color: #ecc230;
+    color: white;
+    }
